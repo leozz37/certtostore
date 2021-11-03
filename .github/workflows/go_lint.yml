@@ -1,0 +1,13 @@
+name: Go Linter
+on: [push, pull_request]
+jobs:
+  go_linter:
+    runs-on: windows-latest
+    steps:
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v2
+
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v2
+        with:
+          version: v1.29
