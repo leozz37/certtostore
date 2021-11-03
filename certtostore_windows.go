@@ -40,10 +40,10 @@ import (
 	"unicode/utf16"
 	"unsafe"
 
-	"golang.org/x/crypto/cryptobyte/asn1"
-	"golang.org/x/crypto/cryptobyte"
-	"golang.org/x/sys/windows"
 	"github.com/google/logger"
+	"golang.org/x/crypto/cryptobyte"
+	"golang.org/x/crypto/cryptobyte/asn1"
+	"golang.org/x/sys/windows"
 )
 
 const (
