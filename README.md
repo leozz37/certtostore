@@ -1,6 +1,7 @@
 # CertToStore
 
 [![Go Tests](https://github.com/google/certtostore/workflows/Go%20Tests/badge.svg)](https://github.com/google/certtostore/actions?query=workflow%3A%22Go+Tests%22)
+[![Go Linter](https://github.com/google/certtostore/actions/workflows/go_lint.yml/badge.svg)](https://github.com/google/certtostore/actions/workflows/go_lint.yml)
 
 CertToStore is a multi-platform package that allows you to work with x509
 certificates on Linux and the certificate store on Windows.
